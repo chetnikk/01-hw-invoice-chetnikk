@@ -62,7 +62,7 @@ int main(int argc, char const *argv[]) {
 
     double totalprice = quantity * typeinput;
  
-    if (quantity <= 5)
+    if (quantity >= 5)
     {
         discount = totalprice * .05;
     }
